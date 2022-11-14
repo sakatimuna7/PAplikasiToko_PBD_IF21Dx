@@ -7,6 +7,7 @@ Module Module1
     Public Ds As DataSet
     Public Dt As DataTable
     Public MyDb, namaServer, database As String
+    Public vMessage As String
 
     Public Sub Koneksi()
         namaServer = "DESKTOP-DF5KEJ6"

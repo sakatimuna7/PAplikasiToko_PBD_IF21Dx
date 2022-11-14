@@ -6,11 +6,7 @@ PAplikasiToko_PBD_IF21Dx
 </name>
 </assembly>
 <members>
-<member name="T:PAplikasiToko_PBD_IF21Dx.db_toko_if21dx">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="P:PAplikasiToko_PBD_IF21Dx.My.Resources.Resources.ResourceManager">
+<member name="P:PAplikasiToko_PBD_IF21Dx.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -22,6 +18,10 @@ Represents a strongly typed in-memory cache of data.
 </member><member name="T:PAplikasiToko_PBD_IF21Dx.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:PAplikasiToko_PBD_IF21Dx.db_toko_if21dx">
+	<summary>
+Represents a strongly typed in-memory cache of data.
 </summary>
 </member><member name="T:PAplikasiToko_PBD_IF21Dx.db_toko_if21dxDataSet.barangDataTable">
 	<summary>

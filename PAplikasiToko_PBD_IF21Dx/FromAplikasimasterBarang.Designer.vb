@@ -61,6 +61,8 @@ Partial Class FromAplikasimasterBarang
         Me.bt_keluar = New System.Windows.Forms.Button()
         Me.Dbtokoif21dxBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.btn_bersih = New System.Windows.Forms.Button()
+        Me.txb_cari = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
         CType(Me.tbl_brg, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Db_toko_if21dx, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Dbtokoif21dxBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -144,8 +146,8 @@ Partial Class FromAplikasimasterBarang
         Me.LineShape3.Name = "LineShape3"
         Me.LineShape3.X1 = 16
         Me.LineShape3.X2 = 759
-        Me.LineShape3.Y1 = 274
-        Me.LineShape3.Y2 = 274
+        Me.LineShape3.Y1 = 286
+        Me.LineShape3.Y2 = 286
         '
         'LineShape2
         '
@@ -168,7 +170,7 @@ Partial Class FromAplikasimasterBarang
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(302, 265)
+        Me.Label2.Location = New System.Drawing.Point(302, 276)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(193, 20)
@@ -389,11 +391,31 @@ Partial Class FromAplikasimasterBarang
         Me.btn_bersih.Text = "Bersihkan"
         Me.btn_bersih.UseVisualStyleBackColor = True
         '
+        'txb_cari
+        '
+        Me.txb_cari.Location = New System.Drawing.Point(588, 252)
+        Me.txb_cari.Name = "txb_cari"
+        Me.txb_cari.Size = New System.Drawing.Size(171, 22)
+        Me.txb_cari.TabIndex = 6
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(502, 255)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(79, 16)
+        Me.Label13.TabIndex = 7
+        Me.Label13.Text = "Cari Barang"
+        '
         'FromAplikasimasterBarang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(775, 598)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.txb_cari)
         Me.Controls.Add(Me.btn_bersih)
         Me.Controls.Add(Me.bt_keluar)
         Me.Controls.Add(Me.bt_hapus)
@@ -469,5 +491,7 @@ Partial Class FromAplikasimasterBarang
     Friend WithEvents Db_toko_if21dx As PAplikasiToko_PBD_IF21Dx.db_toko_if21dx
     Friend WithEvents Dbtokoif21dxBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents btn_bersih As System.Windows.Forms.Button
+    Friend WithEvents txb_cari As System.Windows.Forms.TextBox
+    Friend WithEvents Label13 As System.Windows.Forms.Label
 
 End Class
