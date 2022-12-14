@@ -15,6 +15,14 @@ PAplikasiToko_PBD_IF21Dx
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:PAplikasiToko_PBD_IF21Dx.My.Resources.Resources.bg1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:PAplikasiToko_PBD_IF21Dx.My.Resources.Resources.bg2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="T:PAplikasiToko_PBD_IF21Dx.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.

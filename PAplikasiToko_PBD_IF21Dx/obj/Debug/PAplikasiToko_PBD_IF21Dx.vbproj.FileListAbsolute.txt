@@ -1,54 +1,63 @@
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.xml
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Form1.resources
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Resources.resources
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
-F:\hamdanhabibi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.xml
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Form1.resources
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Resources.resources
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.dll
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.xml
-D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.xml
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.dll
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.xml
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Form1.resources
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Resources.resources
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
-E:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.FrmAplikasiMasterBarang.resources
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.FromAplikasimasterBarang.resources
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.FrmAplikasiMasterSupplier.resources
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Resources.resources
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.pdb
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.xml
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.dll
-F:\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.xml
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe.config
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.xml
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Form1.resources
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Resources.resources
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.exe
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.xml
+F:/hamdanhabibi/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe.config
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.exe
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.xml
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.xml
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Form1.resources
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Resources.resources
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/EntityFramework.dll
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/EntityFramework.xml
+D:/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe.config
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.exe
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.xml
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.xml
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/EntityFramework.dll
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/EntityFramework.xml
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Form1.resources
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Resources.resources
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
+E:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.FrmAplikasiMasterBarang.resources
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe.config
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.exe
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.xml
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.FromAplikasimasterBarang.resources
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.FrmAplikasiMasterSupplier.resources
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Resources.resources
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.exe
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.pdb
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/PAplikasiToko_PBD_IF21Dx.xml
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/EntityFramework.dll
+F:/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/bin/Debug/EntityFramework.xml
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.AssemblyReference.cache
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.FromAplikasimasterBarang.resources
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.FrmAplikasiMasterSupplier.resources
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.Resources.resources
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.cache
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.vbproj.CoreCompileInputs.cache
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.exe
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.xml
+/media/sakatimuna7/Data/My Documents/Kuliah 2022/Ganjil 22-23/PBD_Hamdan/PAplikasiToko_PBD_IF21Dx/PAplikasiToko_PBD_IF21Dx/obj/Debug/PAplikasiToko_PBD_IF21Dx.pdb
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
@@ -58,8 +67,51 @@ E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAp
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.xml
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.dll
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.xml
-E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
-E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.FromAplikasimasterBarang.resources
-E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.FrmAplikasiMasterSupplier.resources
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Resources.resources
 E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterSupplier.resources
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterPegawai.resources
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterPembelian.resources
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterPenjualan.resources
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFromAplikasimasterBarang.resources
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\Interop.Crystal.dll
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\AxInterop.Crystal.dll
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\Interop.Crystal.dll
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\AxInterop.Crystal.dll
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.ResolveComReference.cache
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiLogin.resources
+E:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMenuUtama.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\Interop.Crystal.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\AxInterop.Crystal.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.ResolveComReference.cache
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.pdb
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe.config
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\Interop.Crystal.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\AxInterop.Crystal.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.ResolveComReference.cache
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.exe
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.xml
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.pdb
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.exe
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.pdb
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\PAplikasiToko_PBD_IF21Dx.xml
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\EntityFramework.xml
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\Interop.Crystal.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\bin\Debug\AxInterop.Crystal.dll
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbprojResolveAssemblyReference.cache
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiLogin.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterPegawai.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterPembelian.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterPenjualan.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMenuUtama.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFromAplikasimasterBarang.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmAplikasiMasterSupplier.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.Resources.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmLaporanPembelian.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmLaporanDataMaster.resources
