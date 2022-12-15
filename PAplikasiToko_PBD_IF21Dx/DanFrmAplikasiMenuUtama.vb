@@ -2,6 +2,7 @@
     Private Sub DanFrmAplikasiMenuUtama_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call Terkunci()
         DanFrmAplikasiLogin.ShowDialog()
+
     End Sub
 
     Private Sub LoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem.Click
@@ -42,5 +43,14 @@
 
     Private Sub LaporanDataMasterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LaporanDataMasterToolStripMenuItem.Click
         DanFrmLaporanDataMaster.ShowDialog()
+    End Sub
+
+    'user sedang Login
+    Private Sub UserLoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UserLoginToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub TentangAplikasiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TentangAplikasiToolStripMenuItem.Click
+        DanFrmTentang.ShowDialog()
     End Sub
 End Class

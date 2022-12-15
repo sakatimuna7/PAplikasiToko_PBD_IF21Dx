@@ -33,9 +33,9 @@ Partial Class DanFrmLaporanPembelian
         Me.btn_cetak_lap_harian = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
+        Me.dtp_lap_akhir = New System.Windows.Forms.DateTimePicker()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.dtp_lap_awal = New System.Windows.Forms.DateTimePicker()
         Me.btn_cetak_lap_mingguan = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
@@ -137,9 +137,9 @@ Partial Class DanFrmLaporanPembelian
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.DateTimePicker3)
+        Me.GroupBox3.Controls.Add(Me.dtp_lap_akhir)
         Me.GroupBox3.Controls.Add(Me.Label4)
-        Me.GroupBox3.Controls.Add(Me.DateTimePicker2)
+        Me.GroupBox3.Controls.Add(Me.dtp_lap_awal)
         Me.GroupBox3.Controls.Add(Me.btn_cetak_lap_mingguan)
         Me.GroupBox3.Controls.Add(Me.Label3)
         Me.GroupBox3.Location = New System.Drawing.Point(12, 159)
@@ -147,14 +147,15 @@ Partial Class DanFrmLaporanPembelian
         Me.GroupBox3.Size = New System.Drawing.Size(236, 141)
         Me.GroupBox3.TabIndex = 5
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Laporan Mingguan"
+        Me.GroupBox3.Text = "Laporan Mingguan / by tanggal"
         '
-        'DateTimePicker3
+        'dtp_lap_akhir
         '
-        Me.DateTimePicker3.Location = New System.Drawing.Point(93, 48)
-        Me.DateTimePicker3.Name = "DateTimePicker3"
-        Me.DateTimePicker3.Size = New System.Drawing.Size(127, 20)
-        Me.DateTimePicker3.TabIndex = 6
+        Me.dtp_lap_akhir.Location = New System.Drawing.Point(93, 48)
+        Me.dtp_lap_akhir.Name = "dtp_lap_akhir"
+        Me.dtp_lap_akhir.Size = New System.Drawing.Size(127, 20)
+        Me.dtp_lap_akhir.TabIndex = 6
+        Me.dtp_lap_akhir.Value = New Date(2022, 12, 15, 0, 0, 0, 0)
         '
         'Label4
         '
@@ -165,12 +166,13 @@ Partial Class DanFrmLaporanPembelian
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "Tanggal Akhir"
         '
-        'DateTimePicker2
+        'dtp_lap_awal
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(93, 19)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(127, 20)
-        Me.DateTimePicker2.TabIndex = 4
+        Me.dtp_lap_awal.Location = New System.Drawing.Point(93, 19)
+        Me.dtp_lap_awal.Name = "dtp_lap_awal"
+        Me.dtp_lap_awal.Size = New System.Drawing.Size(127, 20)
+        Me.dtp_lap_awal.TabIndex = 4
+        Me.dtp_lap_awal.Value = New Date(2022, 12, 15, 0, 0, 0, 0)
         '
         'btn_cetak_lap_mingguan
         '
@@ -281,9 +283,9 @@ Partial Class DanFrmLaporanPembelian
     Friend WithEvents btn_cetak_lap_harian As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents DateTimePicker3 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp_lap_akhir As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents dtp_lap_awal As System.Windows.Forms.DateTimePicker
     Friend WithEvents btn_cetak_lap_mingguan As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox

@@ -4,25 +4,32 @@
     Dim data As DataSet
     Dim record As New BindingSource
 
+
     '============== Load Awal
     Private Sub DanFrmLaporanPembelian_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'merubah format date time piker
         dtp_lap_harian.Format = DateTimePickerFormat.Custom
         dtp_lap_harian.CustomFormat = "yyyy-MM-dd"
+        'merubah format date time piker awal
+        dtp_lap_awal.Format = DateTimePickerFormat.Custom
+        dtp_lap_awal.CustomFormat = "yyyy,MM,dd"
+        'merubah format date time piker akhir
+        dtp_lap_akhir.Format = DateTimePickerFormat.Custom
+        dtp_lap_akhir.CustomFormat = "yyyy-MM-dd"
         ' combo box bulanan
         cbx_bulan.Items.Clear()
-        cbx_bulan.Items.Add("01 - JANUARI")
-        cbx_bulan.Items.Add("02 - FEBRUARI")
-        cbx_bulan.Items.Add("03 - MARET")
-        cbx_bulan.Items.Add("04 - APRIL")
-        cbx_bulan.Items.Add("05 - MEI")
-        cbx_bulan.Items.Add("06 - JUNI")
-        cbx_bulan.Items.Add("07 - JULI")
-        cbx_bulan.Items.Add("08 - AGUSTUS")
-        cbx_bulan.Items.Add("09 - SEPTEMBER")
-        cbx_bulan.Items.Add("10 - OKTOBER")
-        cbx_bulan.Items.Add("11 - NOVEMBER")
-        cbx_bulan.Items.Add("12 - DESEMBER")
+        cbx_bulan.Items.Add("1")
+        cbx_bulan.Items.Add("2")
+        cbx_bulan.Items.Add("3")
+        cbx_bulan.Items.Add("4")
+        cbx_bulan.Items.Add("5")
+        cbx_bulan.Items.Add("6")
+        cbx_bulan.Items.Add("7")
+        cbx_bulan.Items.Add("8")
+        cbx_bulan.Items.Add("9")
+        cbx_bulan.Items.Add("10")
+        cbx_bulan.Items.Add("11")
+        cbx_bulan.Items.Add("12")
         cbx_bulan.AutoCompleteMode = AutoCompleteMode.SuggestAppend
         cbx_bulan.AutoCompleteSource = AutoCompleteSource.ListItems
         cbx_bulan.SelectedIndex = 0
@@ -40,38 +47,67 @@
     '============== Kode / Button
     Private Sub btn_cetak_lap_harian_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_harian.Click
         Try
+ulangi:
             AxCrystalReportLaporanPenjualan.SelectionFormula = "totext({dan_view_laporan_pembelian.dan_tgl_beli})='" & dtp_lap_harian.Value.Date.ToString("yyyy-MM-dd") & "'"
             AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelian.rpt"
             AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
             AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
             AxCrystalReportLaporanPenjualan.Action = 1
         Catch ex As Exception
-            MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            If vMessage = vbRetry Then
+                GoTo ulangi
+            End If
         End Try
     End Sub
 
 
     Private Sub btn_cetak_lap_by_kdbli_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_by_kdbli.Click
         Try
+ulangi:
             AxCrystalReportLaporanPenjualan.SelectionFormula = "totext({dan_view_laporan_pembelian.dan_kd_beli})='" & txb_kd_beli.Text & "'"
             AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelian.rpt"
             AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
             AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
             AxCrystalReportLaporanPenjualan.Action = 1
         Catch ex As Exception
-            MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            If vMessage = vbRetry Then
+                GoTo ulangi
+            End If
         End Try
     End Sub
 
     Private Sub btn_cetak_lap_bulanan_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_bulanan.Click
         Try
-            AxCrystalReportLaporanPenjualan.SelectionFormula = "month({dan_view_laporan_pembelian.dan_tgl_beli})='" & Val(cbx_bulan.Text) & "'"
-            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelian.rpt"
+ulangi:
+            AxCrystalReportLaporanPenjualan.SelectionFormula = "Year(CDate({dan_view_laporan_pembelian.dan_tgl_beli}))=" & Val(cbx_tahun.Text) & " and Month(CDate({dan_view_laporan_pembelian.dan_tgl_beli}))=" & Val(cbx_bulan.Text)
+            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelianBulanan.rpt"
             AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
             AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
             AxCrystalReportLaporanPenjualan.Action = 1
         Catch ex As Exception
-            MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            If vMessage = vbRetry Then
+                GoTo ulangi
+            End If
+        End Try
+    End Sub
+
+    Private Sub btn_cetak_lap_mingguan_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_mingguan.Click
+        Try
+ulangi:
+            'AxCrystalReportLaporanPenjualan.SelectionFormula = "CDateTime({dan_view_laporan_pembelian.dan_tgl_beli}) In DateTime(CDateTime(" & Label7.Text & ")) To DateTime(CDateTime(" & Label8.Text & "))"
+            AxCrystalReportLaporanPenjualan.SelectionFormula = "CDate({dan_view_laporan_pembelian.dan_tgl_beli})>= CDate(" & dtp_lap_awal.Value.Date.ToString("yyyy,MM,dd") & ") and CDate({dan_view_laporan_pembelian.dan_tgl_beli})<= CDate(" & dtp_lap_akhir.Value.Date.ToString("yyyy,MM,dd") & ")"
+            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelianDiantara.rpt"
+            AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
+            AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
+            AxCrystalReportLaporanPenjualan.Action = 1
+        Catch ex As Exception
+            vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
+            If vMessage = vbRetry Then
+                GoTo ulangi
+            End If
         End Try
     End Sub
 End Class

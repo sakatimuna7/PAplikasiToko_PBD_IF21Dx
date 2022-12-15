@@ -17,6 +17,8 @@ Module Module1
     Public dan_pegawai = "dan_pegawai"
     'variable nama view
     Public dan_view_penjualan = "dan_view_tbl_penjualan"
+    'nama user login
+    Public nama_user As String
 
     Public Sub Koneksi()
         'namaServer = "DESKTOP-DF5KEJ6"
@@ -170,6 +172,7 @@ Module Module1
         DanFrmAplikasiMenuUtama.MasterAplikasiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.TransaksiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.LaporanToolStripMenuItem.Enabled = True
+        DanFrmAplikasiMenuUtama.UserLoginToolStripMenuItem.Text = nama_user
     End Sub
     'jika berhasil login dan status admin
     Sub adnminTerbuka()
@@ -181,6 +184,8 @@ Module Module1
         DanFrmAplikasiMenuUtama.MasterPegawaiToolStripMenuItem.Visible = True
         DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Visible = True
+        DanFrmAplikasiMenuUtama.UserLoginToolStripMenuItem.Text = nama_user
     End Sub
+
 
 End Module

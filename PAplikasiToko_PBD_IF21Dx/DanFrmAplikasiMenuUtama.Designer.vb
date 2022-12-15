@@ -36,17 +36,15 @@ Partial Class DanFrmAplikasiMenuUtama
         Me.LaporanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanPenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LaporanPembelianToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LaporanDataMasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BukuManualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TentangAplikasiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UtilityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TambahUserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HapusUserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UbahUserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UbahPasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LaporanDataMasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.UserLoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -141,6 +139,12 @@ Partial Class DanFrmAplikasiMenuUtama
         Me.LaporanPembelianToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
         Me.LaporanPembelianToolStripMenuItem.Text = "Laporan Pembelian"
         '
+        'LaporanDataMasterToolStripMenuItem
+        '
+        Me.LaporanDataMasterToolStripMenuItem.Name = "LaporanDataMasterToolStripMenuItem"
+        Me.LaporanDataMasterToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
+        Me.LaporanDataMasterToolStripMenuItem.Text = "Laporan Data Master"
+        '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BukuManualToolStripMenuItem, Me.TentangAplikasiToolStripMenuItem})
@@ -162,54 +166,39 @@ Partial Class DanFrmAplikasiMenuUtama
         '
         'UtilityToolStripMenuItem
         '
-        Me.UtilityToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UserToolStripMenuItem, Me.AdminToolStripMenuItem})
+        Me.UtilityToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UserToolStripMenuItem, Me.ToolStripMenuItem1, Me.UserLoginToolStripMenuItem})
         Me.UtilityToolStripMenuItem.Name = "UtilityToolStripMenuItem"
         Me.UtilityToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
         Me.UtilityToolStripMenuItem.Text = "Utility"
         '
         'UserToolStripMenuItem
         '
-        Me.UserToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TambahUserToolStripMenuItem, Me.HapusUserToolStripMenuItem, Me.UbahUserToolStripMenuItem})
         Me.UserToolStripMenuItem.Name = "UserToolStripMenuItem"
-        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
-        Me.UserToolStripMenuItem.Text = "User"
+        Me.UserToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.UserToolStripMenuItem.Text = "Kelola User Login"
         '
-        'TambahUserToolStripMenuItem
+        'ToolStripMenuItem1
         '
-        Me.TambahUserToolStripMenuItem.Name = "TambahUserToolStripMenuItem"
-        Me.TambahUserToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
-        Me.TambahUserToolStripMenuItem.Text = "Tambah User"
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(162, 6)
         '
-        'HapusUserToolStripMenuItem
+        'UserLoginToolStripMenuItem
         '
-        Me.HapusUserToolStripMenuItem.Name = "HapusUserToolStripMenuItem"
-        Me.HapusUserToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
-        Me.HapusUserToolStripMenuItem.Text = "Hapus User"
+        Me.UserLoginToolStripMenuItem.Name = "UserLoginToolStripMenuItem"
+        Me.UserLoginToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.UserLoginToolStripMenuItem.Text = "User_Login"
         '
-        'UbahUserToolStripMenuItem
+        'Label1
         '
-        Me.UbahUserToolStripMenuItem.Name = "UbahUserToolStripMenuItem"
-        Me.UbahUserToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
-        Me.UbahUserToolStripMenuItem.Text = "Ubah User"
-        '
-        'AdminToolStripMenuItem
-        '
-        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UbahPasswordToolStripMenuItem})
-        Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
-        Me.AdminToolStripMenuItem.Text = "Admin"
-        '
-        'UbahPasswordToolStripMenuItem
-        '
-        Me.UbahPasswordToolStripMenuItem.Name = "UbahPasswordToolStripMenuItem"
-        Me.UbahPasswordToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
-        Me.UbahPasswordToolStripMenuItem.Text = "Ubah Password"
-        '
-        'LaporanDataMasterToolStripMenuItem
-        '
-        Me.LaporanDataMasterToolStripMenuItem.Name = "LaporanDataMasterToolStripMenuItem"
-        Me.LaporanDataMasterToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
-        Me.LaporanDataMasterToolStripMenuItem.Text = "Laporan Data Master"
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.Label1.Font = New System.Drawing.Font("Tahoma", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(473, 55)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(404, 35)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Toko Makmur Jaya Abadi I"
         '
         'DanFrmAplikasiMenuUtama
         '
@@ -218,14 +207,15 @@ Partial Class DanFrmAplikasiMenuUtama
         Me.BackgroundImage = Global.PAplikasiToko_PBD_IF21Dx.My.Resources.Resources.bg2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(908, 377)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(924, 416)
         Me.Name = "DanFrmAplikasiMenuUtama"
+        Me.ShowIcon = False
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "From Menu Utama"
+        Me.Text = "Menu Utama"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -252,10 +242,8 @@ Partial Class DanFrmAplikasiMenuUtama
     Friend WithEvents TentangAplikasiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents UtilityToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents UserToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents TambahUserToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HapusUserToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents UbahUserToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AdminToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents UbahPasswordToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LaporanDataMasterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents UserLoginToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

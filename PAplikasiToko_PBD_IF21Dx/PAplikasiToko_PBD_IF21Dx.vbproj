@@ -114,6 +114,12 @@
     <Compile Include="DanFrmLaporanPembelian.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DanFrmTentang.Designer.vb">
+      <DependentUpon>DanFrmTentang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DanFrmTentang.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="db_toko_if21dx.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -178,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DanFrmLaporanPembelian.resx">
       <DependentUpon>DanFrmLaporanPembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanFrmTentang.resx">
+      <DependentUpon>DanFrmTentang.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanFromAplikasimasterBarang.resx">
       <DependentUpon>DanFromAplikasimasterBarang.vb</DependentUpon>

@@ -19,13 +19,15 @@ Public Class DanFrmAplikasiLogin
 
     Private Sub dan_bt_login_Click(sender As Object, e As EventArgs) Handles dan_bt_login.Click
         Call Koneksi()
-        Da = New SqlDataAdapter("select dan_level from dan_user_login where dan_username='" & dan_txb_username.Text & "' and dan_password='" & dan_txb_username.Text & "'", Conn)
+        Da = New SqlDataAdapter("select dan_user_login.dan_level, dan_pegawai.dan_nm_peg from dan_user_login inner join dan_pegawai on dan_user_login.dan_kd_peg = dan_pegawai.dan_kd_peg where dan_user_login.dan_username='" & dan_txb_username.Text & "' and dan_user_login.dan_password='" & dan_txb_username.Text & "'", Conn)
         Dt = New DataTable
         Da.Fill(Dt)
-        If Dt.Rows.Count > 0 Then
+        nama_user = Dt.Rows(0).Item(1)
+        If Dt.Rows.Count > 0 Then  
             'cek level login
             If Dt.Rows(0).Item(0) = "user" Then
                 Call userTerbuka()
+
             ElseIf Dt.Rows(0).Item(0) = "admin" Then
                 Call adnminTerbuka()
             End If

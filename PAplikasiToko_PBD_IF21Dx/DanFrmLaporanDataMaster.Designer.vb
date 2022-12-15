@@ -33,7 +33,7 @@ Partial Class DanFrmLaporanDataMaster
         'AxCrystalReportLaporanMaster
         '
         Me.AxCrystalReportLaporanMaster.Enabled = True
-        Me.AxCrystalReportLaporanMaster.Location = New System.Drawing.Point(227, 88)
+        Me.AxCrystalReportLaporanMaster.Location = New System.Drawing.Point(226, 76)
         Me.AxCrystalReportLaporanMaster.Name = "AxCrystalReportLaporanMaster"
         Me.AxCrystalReportLaporanMaster.OcxState = CType(resources.GetObject("AxCrystalReportLaporanMaster.OcxState"), System.Windows.Forms.AxHost.State)
         Me.AxCrystalReportLaporanMaster.Size = New System.Drawing.Size(28, 28)
@@ -70,7 +70,7 @@ Partial Class DanFrmLaporanDataMaster
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(490, 128)
+        Me.ClientSize = New System.Drawing.Size(490, 83)
         Me.Controls.Add(Me.dan_btn_cetak_data_pegawai)
         Me.Controls.Add(Me.dan_btn_cetak_data_supplier)
         Me.Controls.Add(Me.dan_btn_cetak_data_barang)

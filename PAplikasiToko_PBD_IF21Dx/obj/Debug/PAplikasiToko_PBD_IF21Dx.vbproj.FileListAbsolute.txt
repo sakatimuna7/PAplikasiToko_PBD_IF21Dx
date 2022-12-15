@@ -115,3 +115,4 @@ D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_I
 D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.vbproj.GenerateResource.Cache
 D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmLaporanPembelian.resources
 D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmLaporanDataMaster.resources
+D:\My Documents\Kuliah 2022\Ganjil 22-23\PBD_Hamdan\Aplikasi\PAplikasiToko_PBD_IF21Dx\PAplikasiToko_PBD_IF21Dx\obj\Debug\PAplikasiToko_PBD_IF21Dx.DanFrmTentang.resources
