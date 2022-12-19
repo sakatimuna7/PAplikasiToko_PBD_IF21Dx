@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,6 +59,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
@@ -102,6 +120,12 @@
     <Compile Include="DanFrmAplikasiMenuUtama.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DanDialogCekPassword.Designer.vb">
+      <DependentUpon>DanDialogCekPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DanDialogCekPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DanFrmLaporanDataMaster.Designer.vb">
       <DependentUpon>DanFrmLaporanDataMaster.vb</DependentUpon>
     </Compile>
@@ -114,10 +138,28 @@
     <Compile Include="DanFrmLaporanPembelian.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DanFrmLaporanPenjualan.Designer.vb">
+      <DependentUpon>DanFrmLaporanPenjualan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DanFrmLaporanPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DanFrmTentang.Designer.vb">
       <DependentUpon>DanFrmTentang.vb</DependentUpon>
     </Compile>
     <Compile Include="DanFrmTentang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanFrmUtilityUser.Designer.vb">
+      <DependentUpon>DanFrmUtilityUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DanFrmUtilityUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanFrmUtilityKelolaUserLogin.Designer.vb">
+      <DependentUpon>DanFrmUtilityKelolaUserLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DanFrmUtilityKelolaUserLogin.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="db_toko_if21dx.Designer.vb">
@@ -149,6 +191,7 @@
     <Compile Include="DanFrmAplikasiLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DialogResult.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -179,14 +222,26 @@
     <EmbeddedResource Include="DanFrmAplikasiMenuUtama.resx">
       <DependentUpon>DanFrmAplikasiMenuUtama.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanDialogCekPassword.resx">
+      <DependentUpon>DanDialogCekPassword.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanFrmLaporanDataMaster.resx">
       <DependentUpon>DanFrmLaporanDataMaster.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanFrmLaporanPembelian.resx">
       <DependentUpon>DanFrmLaporanPembelian.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanFrmLaporanPenjualan.resx">
+      <DependentUpon>DanFrmLaporanPenjualan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanFrmTentang.resx">
       <DependentUpon>DanFrmTentang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanFrmUtilityUser.resx">
+      <DependentUpon>DanFrmUtilityUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanFrmUtilityKelolaUserLogin.resx">
+      <DependentUpon>DanFrmUtilityKelolaUserLogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DanFromAplikasimasterBarang.resx">
       <DependentUpon>DanFromAplikasimasterBarang.vb</DependentUpon>
@@ -269,6 +324,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

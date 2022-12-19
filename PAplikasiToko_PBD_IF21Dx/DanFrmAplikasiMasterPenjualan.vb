@@ -120,9 +120,7 @@ Public Class DanFrmAplikasiMasterPenjualan
         End If
     End Sub
 
-
     '============ load pertama
-
     Private Sub DanFrmAplikasiMasterPenjualan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         dan_txb_kdtrans.MaxLength = 10
         dan_txb_kdbarang.MaxLength = 10
@@ -260,6 +258,7 @@ Public Class DanFrmAplikasiMasterPenjualan
         kosongkanDataBarang()
         transBaru()
         tampil()
+        dan_generate_kdtrans()
     End Sub
 
     Private Sub dan_bt_total_Click(sender As Object, e As EventArgs) Handles dan_bt_total.Click
@@ -273,6 +272,21 @@ Public Class DanFrmAplikasiMasterPenjualan
     End Sub
 
     '======== fungsi filter dan event texbox
+
+    'fungsi membuat kode transaksi
+    Private Sub dan_generate_kdtrans()
+        Try
+            Call Koneksi()
+            Da = New SqlDataAdapter("select CONVERT(int,REPLACE(dan_kd_trans, 'TJ', '')) As kode from " & dan_penjualan & " order by kode desc", Conn)
+            Dt = New DataTable
+            Da.Fill(Dt)
+            Dim kode As String
+            kode = "TJ" & (Dt.Rows(0).Item(0) + 1)
+            dan_txb_kdtrans.Text = kode
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString, MsgBoxStyle.Critical, "Error !!!")
+        End Try
+    End Sub
 
     Private Sub dan_txb_kdtrans_KeyPress(sender As Object, e As KeyPressEventArgs) Handles dan_txb_kdtrans.KeyPress
         If e.KeyChar = Chr(13) Then

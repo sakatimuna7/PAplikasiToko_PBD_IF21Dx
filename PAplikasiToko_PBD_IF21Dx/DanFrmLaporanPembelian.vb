@@ -45,14 +45,15 @@
     End Sub
 
     '============== Kode / Button
+    'LAPORAN HARIAN
     Private Sub btn_cetak_lap_harian_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_harian.Click
         Try
 ulangi:
-            AxCrystalReportLaporanPenjualan.SelectionFormula = "totext({dan_view_laporan_pembelian.dan_tgl_beli})='" & dtp_lap_harian.Value.Date.ToString("yyyy-MM-dd") & "'"
-            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelian.rpt"
-            AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
-            AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
-            AxCrystalReportLaporanPenjualan.Action = 1
+            AxCrystalReportLaporanPembelian.SelectionFormula = "totext({dan_view_laporan_pembelian.dan_tgl_beli})='" & dtp_lap_harian.Value.Date.ToString("yyyy-MM-dd") & "'"
+            AxCrystalReportLaporanPembelian.ReportFileName = "laporanPembelian.rpt"
+            AxCrystalReportLaporanPembelian.WindowState = Crystal.WindowStateConstants.crptMaximized
+            AxCrystalReportLaporanPembelian.RetrieveDataFiles()
+            AxCrystalReportLaporanPembelian.Action = 1
         Catch ex As Exception
             vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
             If vMessage = vbRetry Then
@@ -61,15 +62,15 @@ ulangi:
         End Try
     End Sub
 
-
+    'LAPORAN BY KODE BELI
     Private Sub btn_cetak_lap_by_kdbli_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_by_kdbli.Click
         Try
 ulangi:
-            AxCrystalReportLaporanPenjualan.SelectionFormula = "totext({dan_view_laporan_pembelian.dan_kd_beli})='" & txb_kd_beli.Text & "'"
-            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelian.rpt"
-            AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
-            AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
-            AxCrystalReportLaporanPenjualan.Action = 1
+            AxCrystalReportLaporanPembelian.SelectionFormula = "totext({dan_view_laporan_pembelian.dan_kd_beli})='" & txb_kd_beli.Text & "'"
+            AxCrystalReportLaporanPembelian.ReportFileName = "laporanPembelian.rpt"
+            AxCrystalReportLaporanPembelian.WindowState = Crystal.WindowStateConstants.crptMaximized
+            AxCrystalReportLaporanPembelian.RetrieveDataFiles()
+            AxCrystalReportLaporanPembelian.Action = 1
         Catch ex As Exception
             vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
             If vMessage = vbRetry Then
@@ -78,14 +79,15 @@ ulangi:
         End Try
     End Sub
 
+    'LAPORAN BULANAN
     Private Sub btn_cetak_lap_bulanan_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_bulanan.Click
         Try
 ulangi:
-            AxCrystalReportLaporanPenjualan.SelectionFormula = "Year(CDate({dan_view_laporan_pembelian.dan_tgl_beli}))=" & Val(cbx_tahun.Text) & " and Month(CDate({dan_view_laporan_pembelian.dan_tgl_beli}))=" & Val(cbx_bulan.Text)
-            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelianBulanan.rpt"
-            AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
-            AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
-            AxCrystalReportLaporanPenjualan.Action = 1
+            AxCrystalReportLaporanPembelian.SelectionFormula = "Year(CDate({dan_view_laporan_pembelian.dan_tgl_beli}))=" & Val(cbx_tahun.Text) & " and Month(CDate({dan_view_laporan_pembelian.dan_tgl_beli}))=" & Val(cbx_bulan.Text)
+            AxCrystalReportLaporanPembelian.ReportFileName = "laporanPembelianBulanan.rpt"
+            AxCrystalReportLaporanPembelian.WindowState = Crystal.WindowStateConstants.crptMaximized
+            AxCrystalReportLaporanPembelian.RetrieveDataFiles()
+            AxCrystalReportLaporanPembelian.Action = 1
         Catch ex As Exception
             vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
             If vMessage = vbRetry Then
@@ -93,16 +95,16 @@ ulangi:
             End If
         End Try
     End Sub
-
+    'LAPORAN BERJANGKA / LAPORAN MINGGUAN
     Private Sub btn_cetak_lap_mingguan_Click(sender As Object, e As EventArgs) Handles btn_cetak_lap_mingguan.Click
         Try
 ulangi:
             'AxCrystalReportLaporanPenjualan.SelectionFormula = "CDateTime({dan_view_laporan_pembelian.dan_tgl_beli}) In DateTime(CDateTime(" & Label7.Text & ")) To DateTime(CDateTime(" & Label8.Text & "))"
-            AxCrystalReportLaporanPenjualan.SelectionFormula = "CDate({dan_view_laporan_pembelian.dan_tgl_beli})>= CDate(" & dtp_lap_awal.Value.Date.ToString("yyyy,MM,dd") & ") and CDate({dan_view_laporan_pembelian.dan_tgl_beli})<= CDate(" & dtp_lap_akhir.Value.Date.ToString("yyyy,MM,dd") & ")"
-            AxCrystalReportLaporanPenjualan.ReportFileName = "laporanPembelianDiantara.rpt"
-            AxCrystalReportLaporanPenjualan.WindowState = Crystal.WindowStateConstants.crptMaximized
-            AxCrystalReportLaporanPenjualan.RetrieveDataFiles()
-            AxCrystalReportLaporanPenjualan.Action = 1
+            AxCrystalReportLaporanPembelian.SelectionFormula = "CDate({dan_view_laporan_pembelian.dan_tgl_beli})>= CDate(" & dtp_lap_awal.Value.Date.ToString("yyyy,MM,dd") & ") and CDate({dan_view_laporan_pembelian.dan_tgl_beli})<= CDate(" & dtp_lap_akhir.Value.Date.ToString("yyyy,MM,dd") & ")"
+            AxCrystalReportLaporanPembelian.ReportFileName = "laporanPembelianDiantara.rpt"
+            AxCrystalReportLaporanPembelian.WindowState = Crystal.WindowStateConstants.crptMaximized
+            AxCrystalReportLaporanPembelian.RetrieveDataFiles()
+            AxCrystalReportLaporanPembelian.Action = 1
         Catch ex As Exception
             vMessage = MsgBox(ex.Message.ToString, MsgBoxStyle.RetryCancel, "Error Pencetakan !!!")
             If vMessage = vbRetry Then

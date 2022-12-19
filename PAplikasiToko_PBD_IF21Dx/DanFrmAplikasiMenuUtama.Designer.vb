@@ -22,6 +22,7 @@ Partial Class DanFrmAplikasiMenuUtama
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DanFrmAplikasiMenuUtama))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -67,13 +68,13 @@ Partial Class DanFrmAplikasiMenuUtama
         'LoginToolStripMenuItem
         '
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'MasterAplikasiToolStripMenuItem
@@ -191,7 +192,7 @@ Partial Class DanFrmAplikasiMenuUtama
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.DeepSkyBlue
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(473, 55)
@@ -209,6 +210,7 @@ Partial Class DanFrmAplikasiMenuUtama
         Me.ClientSize = New System.Drawing.Size(908, 377)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.MinimumSize = New System.Drawing.Size(924, 416)
         Me.Name = "DanFrmAplikasiMenuUtama"

@@ -258,9 +258,9 @@ Partial Class DanFrmAplikasiMasterPegawai
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(370, 238)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(205, 20)
+        Me.Label10.Size = New System.Drawing.Size(201, 20)
         Me.Label10.TabIndex = 14
-        Me.Label10.Text = "TABEL DATA PEGAWAI"
+        Me.Label10.Text = "INPUT DATA PEGAWAI"
         '
         'dan_txb_kp
         '

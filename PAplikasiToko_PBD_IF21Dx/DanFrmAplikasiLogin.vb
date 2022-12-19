@@ -18,23 +18,29 @@ Public Class DanFrmAplikasiLogin
     End Sub
 
     Private Sub dan_bt_login_Click(sender As Object, e As EventArgs) Handles dan_bt_login.Click
-        Call Koneksi()
-        Da = New SqlDataAdapter("select dan_user_login.dan_level, dan_pegawai.dan_nm_peg from dan_user_login inner join dan_pegawai on dan_user_login.dan_kd_peg = dan_pegawai.dan_kd_peg where dan_user_login.dan_username='" & dan_txb_username.Text & "' and dan_user_login.dan_password='" & dan_txb_username.Text & "'", Conn)
-        Dt = New DataTable
-        Da.Fill(Dt)
-        nama_user = Dt.Rows(0).Item(1)
-        If Dt.Rows.Count > 0 Then  
-            'cek level login
-            If Dt.Rows(0).Item(0) = "user" Then
-                Call userTerbuka()
-
-            ElseIf Dt.Rows(0).Item(0) = "admin" Then
-                Call adnminTerbuka()
+        Try
+            Call Koneksi()
+            Da = New SqlDataAdapter("select dan_user_login.dan_level, dan_pegawai.dan_nm_peg from dan_user_login inner join dan_pegawai on dan_user_login.dan_kd_peg = dan_pegawai.dan_kd_peg where dan_user_login.dan_username='" & dan_txb_username.Text & "' and dan_user_login.dan_password='" & dan_txb_password.Text & "'", Conn)
+            Dt = New DataTable
+            Da.Fill(Dt)
+            If Dt.Rows.Count > 0 Then
+                'cek level login
+                nama_user = Dt.Rows(0).Item(1)
+                public_username = dan_txb_username.Text
+                If Dt.Rows(0).Item(0) = "user" Then
+                    Call userTerbuka()
+                    public_level = "user"
+                ElseIf Dt.Rows(0).Item(0) = "admin" Then
+                    Call adnminTerbuka()
+                    public_level = "admin"
+                End If
+                Me.Hide()
+            Else
+                MsgBox("Username Atau Password Tidak Cokok", MsgBoxStyle.Exclamation, "Perhatian !!!")
             End If
-            Me.Hide()
-        Else
-            MsgBox("Username Atau Password Tidak Cokok", MsgBoxStyle.Exclamation, "Perhatian !!!")
-        End If
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString, MsgBoxStyle.Critical, "Error !!!")
+        End Try
     End Sub
 
     Private Sub dan_txb_username_KeyPress(sender As Object, e As KeyPressEventArgs) Handles dan_txb_username.KeyPress

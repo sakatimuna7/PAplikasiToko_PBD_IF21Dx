@@ -2,7 +2,6 @@
     Private Sub DanFrmAplikasiMenuUtama_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call Terkunci()
         DanFrmAplikasiLogin.ShowDialog()
-
     End Sub
 
     Private Sub LoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem.Click
@@ -36,7 +35,7 @@
     Private Sub PenjualanBarangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PenjualanBarangToolStripMenuItem.Click
         DanFrmAplikasiMasterPenjualan.ShowDialog()
     End Sub
-
+    '========== Laporan
     Private Sub LaporanPembelianToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LaporanPembelianToolStripMenuItem.Click
         DanFrmLaporanPembelian.ShowDialog()
     End Sub
@@ -45,12 +44,22 @@
         DanFrmLaporanDataMaster.ShowDialog()
     End Sub
 
-    'user sedang Login
-    Private Sub UserLoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UserLoginToolStripMenuItem.Click
-
-    End Sub
-
     Private Sub TentangAplikasiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TentangAplikasiToolStripMenuItem.Click
         DanFrmTentang.ShowDialog()
+    End Sub
+
+    'laporan Penjualan
+    Private Sub LaporanPenjualanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LaporanPenjualanToolStripMenuItem.Click
+        DanFrmLaporanPenjualan.ShowDialog()
+    End Sub
+
+    '========== Utility
+    'user sedang Login
+    Private Sub UserLoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UserLoginToolStripMenuItem.Click
+        DanFrmUtilityUser.ShowDialog()
+    End Sub
+
+    Private Sub UserToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UserToolStripMenuItem.Click
+        DanFrmUtilityKelolaUserLogin.ShowDialog()
     End Sub
 End Class

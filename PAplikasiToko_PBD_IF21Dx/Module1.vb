@@ -19,7 +19,8 @@ Module Module1
     Public dan_view_penjualan = "dan_view_tbl_penjualan"
     'nama user login
     Public nama_user As String
-
+    Public public_username As String
+    Public public_level As String
     Public Sub Koneksi()
         'namaServer = "DESKTOP-DF5KEJ6"
         namaServer = Environment.MachineName
@@ -110,6 +111,24 @@ Module Module1
         End Try
         Return col
     End Function
+    'fungsi add item , untuk autocomplate/saran kode transaksi
+    Public Function dan_add_kdtrans_item(kunci As String)
+        Dim col As New AutoCompleteStringCollection
+        Try
+            Koneksi()
+            Da = New SqlDataAdapter("select dan_kd_trans from " & dan_penjualan & "  where dan_kd_trans LIKE '%" & kunci & "%'", Conn)
+            Dt = New DataTable
+            Da.Fill(Dt)
+            For Each row In Dt.Rows
+                col.Add(row(0))
+            Next
+            Dt.Rows.Clear()
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString, MsgBoxStyle.Critical, "Error !!!")
+            Return False
+        End Try
+        Return col
+    End Function
 
     '====== fugsi pengecekan
 
@@ -152,6 +171,19 @@ Module Module1
         'jika kode tidak ditemukan maka akan gagal, berarti true false
         Return True
     End Function
+    'fungsi pengecekan level admin
+    Function dan_cek_password(password As String)
+        Call Koneksi()
+        Da = New SqlDataAdapter("select dan_level from dan_user_login where dan_username='" & public_username & "' and dan_password='" & password & "'", Conn)
+        Dt = New DataTable
+        Da.Fill(Dt)
+        If Dt.Rows.Count > 0 Then
+            'jika kode ditemukan maka akan lanjut
+            Return True
+        End If
+        'jika kode tidak ditemukan maka akan gagal
+        Return False
+    End Function
 
     '=========== Login
     'untuk diawal terkunci
@@ -161,9 +193,10 @@ Module Module1
         DanFrmAplikasiMenuUtama.MasterAplikasiToolStripMenuItem.Enabled = False
         DanFrmAplikasiMenuUtama.TransaksiToolStripMenuItem.Enabled = False
         DanFrmAplikasiMenuUtama.LaporanToolStripMenuItem.Enabled = False
-        DanFrmAplikasiMenuUtama.MasterPegawaiToolStripMenuItem.Visible = False
+        DanFrmAplikasiMenuUtama.MasterPegawaiToolStripMenuItem.Enabled = False
         DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Enabled = False
         DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Visible = False
+        DanFrmAplikasiMenuUtama.UserToolStripMenuItem.Enabled = False
     End Sub
     'jika berhasil login dan status user
     Sub userTerbuka()
@@ -172,6 +205,8 @@ Module Module1
         DanFrmAplikasiMenuUtama.MasterAplikasiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.TransaksiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.LaporanToolStripMenuItem.Enabled = True
+        DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Enabled = True
+        DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Visible = True
         DanFrmAplikasiMenuUtama.UserLoginToolStripMenuItem.Text = nama_user
     End Sub
     'jika berhasil login dan status admin
@@ -181,9 +216,10 @@ Module Module1
         DanFrmAplikasiMenuUtama.MasterAplikasiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.TransaksiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.LaporanToolStripMenuItem.Enabled = True
-        DanFrmAplikasiMenuUtama.MasterPegawaiToolStripMenuItem.Visible = True
+        DanFrmAplikasiMenuUtama.MasterPegawaiToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.UtilityToolStripMenuItem.Visible = True
+        DanFrmAplikasiMenuUtama.UserToolStripMenuItem.Enabled = True
         DanFrmAplikasiMenuUtama.UserLoginToolStripMenuItem.Text = nama_user
     End Sub
 

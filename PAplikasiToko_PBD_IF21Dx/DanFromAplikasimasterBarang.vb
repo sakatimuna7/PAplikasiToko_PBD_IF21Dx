@@ -275,23 +275,35 @@ Public Class DanFromAplikasimasterBarang
     End Sub
 
     Private Sub txb_rusak_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txb_rusak.KeyPress
-        If e.KeyChar = Chr(13) Then
-            txb_sisa_barang.Focus()
-            'membuat sisa barang otomatis
-            Dim jum, brg, rusak As Integer
-            brg = Convert.ToInt32(txb_jumlah_barang.Text)
-            rusak = Convert.ToInt32(txb_rusak.Text)
-            jum = brg - rusak
-            txb_sisa_barang.Text = jum.ToString
-        End If
-        ' membatasi karakter yang di input
-        If Not (Asc(e.KeyChar) = 8) Then
-            Dim allowedChars As String = "1234567890"
-            If Not allowedChars.Contains(e.KeyChar.ToString.ToLower) Then
-                e.KeyChar = ChrW(0)
-                e.Handled = True
+        Try
+            If e.KeyChar = Chr(13) Then
+                txb_sisa_barang.Focus()
+                Dim intgr As Integer
+                'pengecekan
+                If Integer.TryParse(txb_jumlah_barang.Text, intgr) = False Then
+                    txb_jumlah_barang.Text = "0"
+                End If
+                If Integer.TryParse(txb_rusak.Text, intgr) = False Then
+                    txb_rusak.Text = "0"
+                End If
+                'membuat sisa barang otomatis
+                Dim jum, brg, rusak As Integer
+                brg = Convert.ToInt32(txb_jumlah_barang.Text)
+                rusak = Convert.ToInt32(txb_rusak.Text)
+                jum = brg - rusak
+                txb_sisa_barang.Text = jum.ToString
             End If
-        End If
+            ' membatasi karakter yang di input
+            If Not (Asc(e.KeyChar) = 8) Then
+                Dim allowedChars As String = "1234567890"
+                If Not allowedChars.Contains(e.KeyChar.ToString.ToLower) Then
+                    e.KeyChar = ChrW(0)
+                    e.Handled = True
+                End If
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString, MsgBoxStyle.Critical, "Error !!!")
+        End Try
     End Sub
 
     Private Sub txb_sisa_barang_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txb_sisa_barang.KeyPress

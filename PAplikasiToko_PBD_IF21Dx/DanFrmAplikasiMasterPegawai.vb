@@ -66,6 +66,7 @@ Public Class DanFrmAplikasiMasterPegawai
         dan_dtp_ttgl.Format = DateTimePickerFormat.Custom
         dan_dtp_ttgl.CustomFormat = "dd/MM/yyyy"
         ' combo box pendidikan
+        dan_cbx_pen.Items.Clear()
         dan_cbx_pen.Items.Add("Pilih Pendidikan")
         dan_cbx_pen.Items.Add("SD")
         dan_cbx_pen.Items.Add("SMP")
@@ -77,6 +78,7 @@ Public Class DanFrmAplikasiMasterPegawai
         dan_cbx_pen.AutoCompleteMode = AutoCompleteMode.SuggestAppend
         dan_cbx_pen.AutoCompleteSource = AutoCompleteSource.ListItems
         ' combo box jabatan
+        dan_cbx_jab.Items.Clear()
         dan_cbx_jab.Items.Add("Pilih Jabatan")
         dan_cbx_jab.Items.Add("Kasir")
         dan_cbx_jab.Items.Add("Kepala Toko")

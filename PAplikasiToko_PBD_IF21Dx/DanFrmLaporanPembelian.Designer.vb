@@ -23,7 +23,7 @@ Partial Class DanFrmLaporanPembelian
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DanFrmLaporanPembelian))
-        Me.AxCrystalReportLaporanPenjualan = New AxCrystal.AxCrystalReport()
+        Me.AxCrystalReportLaporanPembelian = New AxCrystal.AxCrystalReport()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.txb_kd_beli = New System.Windows.Forms.TextBox()
         Me.btn_cetak_lap_by_kdbli = New System.Windows.Forms.Button()
@@ -44,21 +44,21 @@ Partial Class DanFrmLaporanPembelian
         Me.Label5 = New System.Windows.Forms.Label()
         Me.btn_cetak_lap_bulanan = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
-        CType(Me.AxCrystalReportLaporanPenjualan, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AxCrystalReportLaporanPembelian, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
-        'AxCrystalReportLaporanPenjualan
+        'AxCrystalReportLaporanPembelian
         '
-        Me.AxCrystalReportLaporanPenjualan.Enabled = True
-        Me.AxCrystalReportLaporanPenjualan.Location = New System.Drawing.Point(242, 146)
-        Me.AxCrystalReportLaporanPenjualan.Name = "AxCrystalReportLaporanPenjualan"
-        Me.AxCrystalReportLaporanPenjualan.OcxState = CType(resources.GetObject("AxCrystalReportLaporanPenjualan.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxCrystalReportLaporanPenjualan.Size = New System.Drawing.Size(28, 28)
-        Me.AxCrystalReportLaporanPenjualan.TabIndex = 1
+        Me.AxCrystalReportLaporanPembelian.Enabled = True
+        Me.AxCrystalReportLaporanPembelian.Location = New System.Drawing.Point(242, 146)
+        Me.AxCrystalReportLaporanPembelian.Name = "AxCrystalReportLaporanPembelian"
+        Me.AxCrystalReportLaporanPembelian.OcxState = CType(resources.GetObject("AxCrystalReportLaporanPembelian.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.AxCrystalReportLaporanPembelian.Size = New System.Drawing.Size(28, 28)
+        Me.AxCrystalReportLaporanPembelian.TabIndex = 1
         '
         'GroupBox1
         '
@@ -258,10 +258,13 @@ Partial Class DanFrmLaporanPembelian
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.AxCrystalReportLaporanPenjualan)
+        Me.Controls.Add(Me.AxCrystalReportLaporanPembelian)
+        Me.MaximumSize = New System.Drawing.Size(532, 358)
+        Me.MinimumSize = New System.Drawing.Size(532, 358)
         Me.Name = "DanFrmLaporanPembelian"
-        Me.Text = "DanFrmLaporanPembelian"
-        CType(Me.AxCrystalReportLaporanPenjualan, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
+        Me.Text = "LAPORAN PEMBELIAN"
+        CType(Me.AxCrystalReportLaporanPembelian, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
@@ -273,7 +276,7 @@ Partial Class DanFrmLaporanPembelian
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents AxCrystalReportLaporanPenjualan As AxCrystal.AxCrystalReport
+    Friend WithEvents AxCrystalReportLaporanPembelian As AxCrystal.AxCrystalReport
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents txb_kd_beli As System.Windows.Forms.TextBox
     Friend WithEvents btn_cetak_lap_by_kdbli As System.Windows.Forms.Button
